@@ -1,14 +1,81 @@
-site_name: Taller de X
+# 1. Información del Taller
+site_name: Taller de X # TODO:
+site_description: La Jaqueria - Taller de X # TODO:
+site_author: Cristóbal Contreras Rubio # TODO:
+site_url: https://crisconru.github.io/ # TODO:
 
+# 2. Repositorio
+repo_name: crisconru/plantilla-taller # TODO:
+repo_url: https://github.com/crisconru/plantilla-taller # TODO:
+edit_uri: ""
+
+# 3. Copyright
+copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras # TODO:
+
+# 4. RRSS
+extra:
+  social:
+    - type: github
+      link: https://github.com/LaJaqueria # TODO:
+    - type: twitter
+      link: https://twitter.com/lajaqueria # TODO:
+    - type: linkedin
+      link: https://www.linkedin.com/company/lajaqueria/ # TODO:
+
+# 5. Navegación
 nav:
-  - Introducción: 'index.md'
+  # Modelo para empezar: Intro, Info del autor y la instalación
+  - Introducción: index.md # TODO:
+  - Autor / Autores: about.md # TODO:
   - Instalación:
-    - Windows: 'instalacion/windows.md'
-    - Mac OS: 'instalacion/macos.md'
-    - Linux: 'instalacion/linux.md'
-  
+    - Instalación: instalacion/instalacion.md # TODO:
+    - Windows: instalacion/windows.md # TODO:
+    - Mac OS: instalacion/macos.md # TODO:
+    - Linux: instalacion/linux.md # TODO:
+  # Aquí seguirían tus secciones
+  # TODO:
+  # Por último, comenta estas 4 líneas
+  - Ayuda para escribir: # TODO:
+    - Notas: ayuda/ayuda.md # TODO:
+    - Markdown: ayuda/markdown.md # TODO:
+    - Material Design: ayuda/material.md # TODO:
+
+# 6. Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+#  - auto
+
+# 7. Configuración del tema
+theme:
+  name: material
+  # Color - Fuentes - Lenguaje
+  palette:
+    primary: blue grey
+    accent: red
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: img/favicon.png
+  favicon: img/favicon.png
+  language: es
+  # Página 404
+  static_templates:
+    - 404.html
+  # No incluir los JavaScript de MkDocs
+  #include_search_page: false
+  #search_index_only: true
+
+# 8. Extensiones
 markdown_extensions:
-  - codehilite
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      # guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -18,7 +85,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.inlinehilite
-  - pymdownx.magiclink
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
@@ -26,26 +97,14 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-theme:
-  name: 'material'
-  palette:
-    primary: 'blue grey'
-    accent: 'red'
-  font:
-    text: 'Roboto Mono'
-    code: 'Roboto Mono'
-  logo: 'images/favicon.png'
-  favicon: 'images/favicon.png'
-  language: 'es'
-  
-  repo_name: 'LaJaqueria/plantilla-taller'
-  repo_url: 'https://github.com/LaJaqueria/plantilla-taller'
-  extra:
-    social:
-      - type: 'github'
-        link: 'https://github.com/LaJaqueria'
-      - type: 'twitter'
-        link: 'https://twitter.com/lajaqueria'
-      - type: 'linkedin'
-        link: 'https://www.linkedin.com/company/lajaqueria/'
+# 9. Necesario para la extensión pydownx.arithmatex
+extra_javascript:
+  # Este fichero es opcional y solo si se quiere sobreescribir la configuracion del plugin
+  #- js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML
 
+# 10. Plugins
+plugins:
+  - search
+  - minify:
+      minify_html: true
