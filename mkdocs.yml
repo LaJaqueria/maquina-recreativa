@@ -1,16 +1,16 @@
 # 1. Información del Taller
 site_name: Taller de contrucción de una máquina recreativa 
 site_description: Vamos a construir una maquina recreativa y de paso vamos a experimentar con la gestión de proyectos colaborativa
-site_author: Cristóbal Contreras Rubio # TODO:
-site_url: https://crisconru.github.io/ # TODO:
+site_author: La Jaqueria # TODO:
+site_url: https://lajaqueria.org/maquina-recreativa # TODO:
 
 # 2. Repositorio
-repo_name: crisconru/plantilla-taller # TODO:
-repo_url: https://github.com/crisconru/plantilla-taller # TODO:
+repo_name: lajaqueria/maquina-recreativa # TODO:
+repo_url: https://github.com/lajaqueria/maquina-recreativa # TODO:
 edit_uri: ""
 
 # 3. Copyright
-copyright: Copyright &copy; 2019 - 2020 Cristóbal Contreras # TODO:
+copyright: Copyright &copy; 2019 - 2020 La Jaquería # TODO:
 
 # 4. RRSS
 extra:
@@ -26,12 +26,6 @@ extra:
 nav:
   # Modelo para empezar: Intro, Info del autor y la instalación
   - Introducción: index.md # TODO:
-  - Autor / Autores: about.md # TODO:
-  - Instalación:
-    - Instalación: instalacion/instalacion.md # TODO:
-    - Windows: instalacion/windows.md # TODO:
-    - Mac OS: instalacion/macos.md # TODO:
-    - Linux: instalacion/linux.md # TODO:
   # Aquí seguirían tus secciones
   # TODO:
   # Por último, comenta estas 4 líneas

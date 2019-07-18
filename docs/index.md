@@ -1,18 +1,30 @@
-# Taller de X
+# Taller de contrucción de una máquina recreativa 
 
-TODO: Aquí debe de ir la **Descripción del taller**
+Proyecto para el verano de 2019. 
 
-Esta es la lista de tareas que tienes que hacer para poner a punto este taller.
+En este proyecto se pretende de crear una recreativa a partir de una Raspberry Pi; creando un proyecto colaborativo entre todos los integrantes de la asociación. Comenzando por la recolección de los materiales y la planificación de las tareas, en esta web se irá mostrando todos los pasos necesarios a realizar y un diario a cerca de las sesiones que se han ido realizando.
 
-* [ ] Vete a `mkdocs.yml` y rellena todos los puntos del 1 al 4. **Borra los comentarios TODO: conforme vayas acabando**
-* [ ] En este fichero, `index.md`, escribe de que va el taller, pon toda la información. **Borra el TODO: cuando acabes**
-* [ ] Guarda una foto chiquitita tuya, típica foto de perfil, en la carpeta `docs/img/`.
-* [ ] Vete a `about.md`, enlaza tu imagen de perfil y rellena tu información personal. **Borra el TODO: cuando acabes**
-* [ ] En la carpeta `docs/instalacion` ve a cada fichero y pon las instrucciones para instalar todo. **Borra el TODO: cuando acabes**
-* [ ] Ahora puedes ir creando tus secciones en carpetas con sus ficheros markdown (acabados en `.md`) y enlazándolos en el punto 5 de `mkdocs.yml`. **Borra el TODO: cuando acabes**
-* [ ] Cuando hayas acabado todo, haz un primer despliegue para ver como se queda online. Para ello ejecuta `pipenv run mkdocs gh-deploy`.
-    * [ ] Si el resultado no te convence, sigue editando lo que te haga falta. Cuando ya estes convencid@, pasa al siguiente punto.
-* [ ] En `mkdocs.yml` comenta las líneas del punto 5 que se refieren a la ayuda. **Borra cada TODO: cuando acabes**
-* [ ] En este fichero borra esta información que no necesitas y comprueba que no te queda ningun TODO: por hacer.
-* [ ] Vuelve a hacer un despliegue ya con el resultado final y comprueba que se quede perfecto.
-* [ ] Recuerda hacer subir todos tus cambios a la rama master con `git commit -am "Mensaje del commit"`.
+En primer lugar, vamos a mostrar la recreativa que se quiere construir:
+
+![arcade](images/arcade.jpg)
+
+Como se puede ver en la imagen se trata de una recreativa de cuerpo entero (no siendo una "bartop"). Además de que se utilizará la distribución para emular diferentes sistemas de retropie.
+
+## Materiales
+
+Seguidamente se muestra una tabla con los materiales (incluyendo un enlace de compra).
+
+| Conseguido | Material         | Enlace | Observaciones |
+|------------|------------------|--------|---------------|
+|     ✔   | Raspberry Pi 3B+ |    [https://www.pccomponentes.com/raspberry-pi-3-modelo-b-plus](https://www.pccomponentes.com/raspberry-pi-3-modelo-b-plus)    |               |
+|     ✔      |     Cargador Raspberry Pi 2,5A 5,1V             |   [https://www.pccomponentes.com/fuente-de-alimentacion-para-raspberry-pi-3-51v-1-salida-25a-13w-negra](https://www.pccomponentes.com/fuente-de-alimentacion-para-raspberry-pi-3-51v-1-salida-25a-13w-negra)     |               |
+|     ✔       |       Tarjeta Micro SD 16/32Gb           |    [https://www.pccomponentes.com/intenso-tarjeta-microsd-sdhc-16gb-clase-10](https://www.pccomponentes.com/intenso-tarjeta-microsd-sdhc-16gb-clase-10)    |               |
+|     ✔       |       Funda Raspberry Pi           |    [https://www.pccomponentes.com/raspberry-new-carcasa-oficial-para-raspberry-pi-3-b-negra](https://www.pccomponentes.com/raspberry-new-carcasa-oficial-para-raspberry-pi-3-b-negra)    |       Opcional        |
+|      ✔      |        Pantalla CRT   16 ''       |        |       Donada        |
+|      ✔      |          Convertidor HDMI a VGA        |    [https://www.pccomponentes.com/unotec-cable-adaptador-hdmi-a-vga](https://www.pccomponentes.com/unotec-cable-adaptador-hdmi-a-vga)    |               |
+|      ✔      |        Joistick Arcade (x2)      |      [Joistick Arcade](https://es.aliexpress.com/item/33017830386.html?mb=Xv1WVKymoBpJ4a6&srcSns=Telegram&tid=white_backgroup_101&tt=sns_Other&aff_platform=default&cpt=1563470839884&sk=c4MkXBNI&aff_trace_key=738b4135c8784e8ab058a96baa667dbb-1563470839884-06516-c4MkXBNI&businessType=ProductDetail&templateId=white_backgroup_101&platform=AE&terminal_id=7937184d6c5c435bbc7e4f82defbb66a)    |    |
+|        | Madera (Aglomerado DM)    |    |    |
+|        |    Plastico Transparetne (no metraquilato)    |    |    |
+|        |    Imprimación (Pintura)    |    |    |
+|        |    Pintura negra    |    |    |
+|        |    Papel (lija)    |    |    |
