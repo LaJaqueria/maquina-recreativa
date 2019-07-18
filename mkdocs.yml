@@ -29,6 +29,7 @@ nav:
   # Aquí seguirían tus secciones
   # TODO:
   # Por último, comenta estas 4 líneas
+  - Tareas: https://github.com/LaJaqueria/maquina-recreativa/projects
   - Ayuda para escribir: # TODO:
     - Notas: ayuda/ayuda.md # TODO:
     - Markdown: ayuda/markdown.md # TODO:
