@@ -31,7 +31,7 @@ nav:
   # Por último, comenta estas 4 líneas
   - Tareas: https://github.com/LaJaqueria/maquina-recreativa/projects
   - Diario:
-    - 2019-07-26: diario/2019-07-26.md
+    - 26/07/2019: diario/2019-07-26.md
   - Ayuda para escribir: # TODO:
     - Notas: ayuda/ayuda.md # TODO:
     - Markdown: ayuda/markdown.md # TODO:
