@@ -23,6 +23,7 @@ Seguidamente se muestra una tabla con los materiales (incluyendo un enlace de co
 |      ✔      |        Pantalla CRT   16 ''       |        |       Donada        |
 |      ✔      |          Convertidor HDMI a VGA        |    [https://www.pccomponentes.com/unotec-cable-adaptador-hdmi-a-vga](https://www.pccomponentes.com/unotec-cable-adaptador-hdmi-a-vga)    |               |
 |      ✔      |        Joistick Arcade (x2)      |      [Joistick Arcade](https://es.aliexpress.com/item/33017830386.html?mb=Xv1WVKymoBpJ4a6&srcSns=Telegram&tid=white_backgroup_101&tt=sns_Other&aff_platform=default&cpt=1563470839884&sk=c4MkXBNI&aff_trace_key=738b4135c8784e8ab058a96baa667dbb-1563470839884-06516-c4MkXBNI&businessType=ProductDetail&templateId=white_backgroup_101&platform=AE&terminal_id=7937184d6c5c435bbc7e4f82defbb66a)    |    |
+|        | Altavoces   |   |   |   |
 |        | Madera (Aglomerado DM)    |    |    |
 |        |    Plastico Transparente (no metraquilato)    |    |    |
 |        |    Imprimación (Pintura)    |    |    |
